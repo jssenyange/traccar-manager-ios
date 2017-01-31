@@ -1,6 +1,9 @@
 //
 // Copyright 2016 Anton Tananaev (anton.tananaev@gmail.com)
+<<<<<<< HEAD
 // Copyright 2016 William Pearse (w.pearse@gmail.com)
+=======
+>>>>>>> refs/remotes/tananaev/webview
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,6 +25,7 @@ import Alamofire
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+<<<<<<< HEAD
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
@@ -55,5 +59,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
-}
+=======
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        if UserDefaults.standard.object(forKey: "url") != nil {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+            self.window?.makeKeyAndVisible()
+        }
+        return true
+    }
 
+>>>>>>> refs/remotes/tananaev/webview
+}

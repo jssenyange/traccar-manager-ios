@@ -1,5 +1,10 @@
 xcuserdata
 TraccarManager.xcworkspace/contents.xcworkspacedata
 Carthage
+<<<<<<< HEAD
 
 Cartfile.resolved
+=======
+Cartfile.resolved
+.DS_Store
+>>>>>>> refs/remotes/tananaev/webview

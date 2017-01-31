@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CE0721131C86EB9800D057CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721121C86EB9800D057CE /* AppDelegate.swift */; };
+<<<<<<< HEAD
 		CE0721151C86EB9800D057CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721141C86EB9800D057CE /* MapViewController.swift */; };
+=======
+		CE0721151C86EB9800D057CE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721141C86EB9800D057CE /* MainViewController.swift */; };
+>>>>>>> refs/remotes/tananaev/webview
 		CE0721181C86EB9800D057CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0721161C86EB9800D057CE /* Main.storyboard */; };
 		CE07211A1C86EB9800D057CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0721191C86EB9800D057CE /* Assets.xcassets */; };
 		CE07211D1C86EB9800D057CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE07211B1C86EB9800D057CE /* LaunchScreen.storyboard */; };
 		CE0721281C86EB9800D057CE /* TraccarManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721271C86EB9800D057CE /* TraccarManagerTests.swift */; };
 		CE0721331C86EB9800D057CE /* TraccarManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0721321C86EB9800D057CE /* TraccarManagerUITests.swift */; };
+<<<<<<< HEAD
 		CEE848D21CCDCD53000B1E9D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE848D11CCDCD53000B1E9D /* MapKit.framework */; };
 		CEE848D41CCDCF0E000B1E9D /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE848D31CCDCF0E000B1E9D /* DevicesViewController.swift */; };
 		CEE848D61CCDCF34000B1E9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE848D51CCDCF34000B1E9D /* LoginViewController.swift */; };
@@ -44,6 +49,10 @@
 		D3B7E1E21CD9C9910096D11A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7E1E11CD9C9910096D11A /* WebService.swift */; };
 		D3B7E1E31CD9C9910096D11A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7E1E11CD9C9910096D11A /* WebService.swift */; };
 		D3B7E1E41CD9C9910096D11A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B7E1E11CD9C9910096D11A /* WebService.swift */; };
+=======
+		CE4BBC0B1DE844300074B0CC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4BBC0A1DE844300074B0CC /* WebKit.framework */; };
+		CE850DB61E18EF0A00F4F73A /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE850DB51E18EF0A00F4F73A /* StartViewController.swift */; };
+>>>>>>> refs/remotes/tananaev/webview
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +88,11 @@
 /* Begin PBXFileReference section */
 		CE07210F1C86EB9800D057CE /* TraccarManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraccarManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0721121C86EB9800D057CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CE0721141C86EB9800D057CE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+=======
+		CE0721141C86EB9800D057CE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+>>>>>>> refs/remotes/tananaev/webview
 		CE0721171C86EB9800D057CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE0721191C86EB9800D057CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE07211C1C86EB9800D057CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,6 +103,7 @@
 		CE07212E1C86EB9800D057CE /* TraccarManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraccarManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0721321C86EB9800D057CE /* TraccarManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraccarManagerUITests.swift; sourceTree = "<group>"; };
 		CE0721341C86EB9800D057CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CEE848D11CCDCD53000B1E9D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CEE848D31CCDCF0E000B1E9D /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
 		CEE848D51CCDCF34000B1E9D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +122,10 @@
 		D3394F391CE3D0AD00795822 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		D397E3AD1CDEC176001DBCA3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D3B7E1E11CD9C9910096D11A /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+=======
+		CE4BBC0A1DE844300074B0CC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		CE850DB51E18EF0A00F4F73A /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+>>>>>>> refs/remotes/tananaev/webview
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +133,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				D3394F3A1CE3D0AD00795822 /* SocketRocket.framework in Frameworks */,
 				D3394F3B1CE3D0AD00795822 /* Alamofire.framework in Frameworks */,
 				D3091C121CD9D86F0017F0DC /* CoreLocation.framework in Frameworks */,
 				CEE848D21CCDCD53000B1E9D /* MapKit.framework in Frameworks */,
+=======
+				CE4BBC0B1DE844300074B0CC /* WebKit.framework in Frameworks */,
+>>>>>>> refs/remotes/tananaev/webview
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,8 +180,12 @@
 				CE0721261C86EB9800D057CE /* TraccarManagerTests */,
 				CE0721311C86EB9800D057CE /* TraccarManagerUITests */,
 				CE0721101C86EB9800D057CE /* Products */,
+<<<<<<< HEAD
 				C47A9C561CBDCB24F2866BD2 /* Frameworks */,
 				D30ACDB81CE5DE2E00925366 /* MBProgressHUD */,
+=======
+				CE4BBC071DE83EEE0074B0CC /* Frameworks */,
+>>>>>>> refs/remotes/tananaev/webview
 			);
 			sourceTree = "<group>";
 		};
@@ -179,11 +205,16 @@
 				D3091C0C1CD9D0560017F0DC /* Model */,
 				D3B7E1E11CD9C9910096D11A /* WebService.swift */,
 				CE0721121C86EB9800D057CE /* AppDelegate.swift */,
+<<<<<<< HEAD
 				CEE848D51CCDCF34000B1E9D /* LoginViewController.swift */,
 				CE0721141C86EB9800D057CE /* MapViewController.swift */,
 				D3394F251CE1C77900795822 /* PositionAnnotation.swift */,
 				CEE848D31CCDCF0E000B1E9D /* DevicesViewController.swift */,
 				D3091CBE1CDEAED10017F0DC /* DeviceInfoViewController.swift */,
+=======
+				CE850DB51E18EF0A00F4F73A /* StartViewController.swift */,
+				CE0721141C86EB9800D057CE /* MainViewController.swift */,
+>>>>>>> refs/remotes/tananaev/webview
 				CE0721161C86EB9800D057CE /* Main.storyboard */,
 				D30ACDB51CE5409700925366 /* Main-iPad.storyboard */,
 				CE0721191C86EB9800D057CE /* Assets.xcassets */,
@@ -213,6 +244,7 @@
 			path = TraccarManagerUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		D3091C0C1CD9D0560017F0DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +263,14 @@
 			);
 			name = MBProgressHUD;
 			path = Carthage/Checkouts/MBProgressHUD;
+=======
+		CE4BBC071DE83EEE0074B0CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE4BBC0A1DE844300074B0CC /* WebKit.framework */,
+			);
+			name = Frameworks;
+>>>>>>> refs/remotes/tananaev/webview
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,11 +348,19 @@
 					};
 					CE0721221C86EB9800D057CE = {
 						CreatedOnToolsVersion = 7.2;
+<<<<<<< HEAD
+=======
+						DevelopmentTeam = YW49KTJKFW;
+>>>>>>> refs/remotes/tananaev/webview
 						LastSwiftMigration = 0800;
 						TestTargetID = CE07210E1C86EB9800D057CE;
 					};
 					CE07212D1C86EB9800D057CE = {
 						CreatedOnToolsVersion = 7.2;
+<<<<<<< HEAD
+=======
+						DevelopmentTeam = YW49KTJKFW;
+>>>>>>> refs/remotes/tananaev/webview
 						LastSwiftMigration = 0800;
 						TestTargetID = CE07210E1C86EB9800D057CE;
 					};
@@ -389,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				CEE848D61CCDCF34000B1E9D /* LoginViewController.swift in Sources */,
 				D3091C0E1CD9D0670017F0DC /* User.swift in Sources */,
 				D3091CBF1CDEAED10017F0DC /* DeviceInfoViewController.swift in Sources */,
@@ -396,6 +445,10 @@
 				D3394F351CE2A56600795822 /* Definitions.swift in Sources */,
 				CE0721151C86EB9800D057CE /* MapViewController.swift in Sources */,
 				D397E3AE1CDEC176001DBCA3 /* Extensions.swift in Sources */,
+=======
+				CE850DB61E18EF0A00F4F73A /* StartViewController.swift in Sources */,
+				CE0721151C86EB9800D057CE /* MainViewController.swift in Sources */,
+>>>>>>> refs/remotes/tananaev/webview
 				CE0721131C86EB9800D057CE /* AppDelegate.swift in Sources */,
 				D3091C9F1CDB60C00017F0DC /* Device.swift in Sources */,
 				D3091CA91CDDE2900017F0DC /* Position.swift in Sources */,
@@ -569,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -581,6 +635,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = TraccarManager/BridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+=======
+				DEVELOPMENT_TEAM = YW49KTJKFW;
+				INFOPLIST_FILE = TraccarManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> refs/remotes/tananaev/webview
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -590,6 +652,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,6 +664,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = TraccarManager/BridgingHeader.h;
+=======
+				DEVELOPMENT_TEAM = YW49KTJKFW;
+				INFOPLIST_FILE = TraccarManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+>>>>>>> refs/remotes/tananaev/webview
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -609,6 +680,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YW49KTJKFW;
 				INFOPLIST_FILE = TraccarManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManagerTests;
@@ -622,6 +694,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YW49KTJKFW;
 				INFOPLIST_FILE = TraccarManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManagerTests;
@@ -634,6 +707,7 @@
 		CE07213E1C86EB9800D057CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YW49KTJKFW;
 				INFOPLIST_FILE = TraccarManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManagerUITests;
@@ -647,6 +721,7 @@
 		CE07213F1C86EB9800D057CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = YW49KTJKFW;
 				INFOPLIST_FILE = TraccarManagerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.traccar.TraccarManagerUITests;
